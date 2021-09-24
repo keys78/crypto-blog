@@ -24,7 +24,7 @@ const Navbar = () => {
         } else {
             setActiveMenu(true)
         }
-    }, []);
+    }, [screenSize]);
 
     return (
         <div className="nav-container">
