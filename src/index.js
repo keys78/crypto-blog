@@ -8,6 +8,8 @@ import reportWebVitals from './reportWebVitals';
 import 'antd/dist/antd.css';
 import store from './app/store'
 
+console.log(process.env)
+
 ReactDOM.render(
   <React.StrictMode>
     <Router>

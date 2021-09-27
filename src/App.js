@@ -2,8 +2,12 @@ import React from 'react';
 import './App.css';
 import { Switch, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
-
 import { Navbar, Exchanges, Homepage, Cryptocurrencies, CryptoDetails, News } from './components'
+
+// require('dotenv').config()
+
+console.log(process.env)
+
 
 function App() {
   return (
